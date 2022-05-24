@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageicon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        tools:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageicon"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="-1dp"
+        android:text="什么是Android系统" />
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageicon"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="76dp"
+        android:text="2021.7.30" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/texttitle"
+        android:layout_alignTop="@id/texttitle"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginRight="78dp"
+        android:text="@android:string/VideoView_error_text_invalid_progressive_playback" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/texttitle"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="201dp"
+        android:text="回复" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignTop="@id/button"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="64dp"
+        android:text="转发" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/texttitle"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:autoLink="email"
+        android:text="3195218997@qq.com"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/texttitle"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="请输入标题"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="116dp"
+        android:layout_below="@id/editText"
+        android:layout_alignLeft="@id/texttitle"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="请输入具体内容"
+        android:inputType="textMultiLine" />
+</RelativeLayout>

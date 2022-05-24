@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="1.1用户下载平台并根据平台的注册规则完成注册流程（包括但不限于设置用户名称及密码）后，即有权通过平台发布、查看、接收图文/音频/视频信息或其他文件，或与其他用户进行延时/实时交流。用户在平台上有效注册（或有效变更注册）的用户名及密码共同构成用户在平台的唯一有效身份证明。  1.2用户一旦完成注册，则视为用户允许平台方通过短信、电子邮件、APP/服务器推送或其他方式向其发送与平台相关的信息。  1.3用户应当保证其完成上述注册（或变更注册）时所提供的身份信息及电话、电子邮箱等必要信息真实、准确、有效；如此类信息有任何变动，用户应当在三日内通过平台完成信息更新。因用户提供虚假或无效信息导致平台方或其他用户遭受损失的，用户应当承担全部责任。  1.4用户应自行妥善保管用户名及密码，除经平台方事先书面同意或本协议另有约定外，不得将其赠予、转让、出售或出借于他人使用；如用户发现其用户名及密码遭他人使用，应立即通知平台方以避免损失或损失扩大。因网络攻击、用户保管用户名及密码不当、转让或出借用户名及密码、怠于履行本协议及其他相关协议下的通知义务等情形或其他非平台方原因，导致用户未能正常使用平台或遭受任何损失的，由用户自行担责，平台方不承担任何责任。  1.5用户需自行确认，在开始注册使用平台前，其应当具备中华人民共和国法律规定的与其行为相适应的民事行为能力。若用户不具备前述与用户行为相适应的民事行为能力，则其监护人应依照法律规定承担此用户行为产生的一切法律后果（未成年人应在其监护人监督指导下使用平台）。  1.6用户注册的账户为用户自行设置并由用户自行保管，平台方任何时候均不会主动要求用户提供其账户密码。用户账户因用户的主动泄露或遭受他人攻击、诈骗等行为导致的损失及后果，平台方不承担责任，用户应自行通过司法、行政等救济途径向侵权行为人追偿。" />
+
+    <CheckBox
+        android:id="@+id/cbconfirmlicense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同意接受用户协议" />
+
+    <Button
+        android:id="@+id/btnconfirmlicense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+</LinearLayout>

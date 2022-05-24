@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI计算器"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editheight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入身高（米）"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入体重（公斤）"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算结果"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算" />
+</LinearLayout>

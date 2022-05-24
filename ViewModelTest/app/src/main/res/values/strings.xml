@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewModelTest</string>
+    <string name="but1">+1</string>
+    <string name="but2">+2</string>
+</resources>
